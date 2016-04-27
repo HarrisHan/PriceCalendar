@@ -1,6 +1,6 @@
 //
-//  PriceCalenderUITests.m
-//  PriceCalenderUITests
+// 简书：http://www.jianshu.com/users/c1bb6aa0e422/latest_articlesUITests.m
+// 简书：http://www.jianshu.com/users/c1bb6aa0e422/latest_articlesUITests
 //
 //  Created by Harris on 16/4/27.
 //  Copyright © 2016年 HarrisHan. All rights reserved.
