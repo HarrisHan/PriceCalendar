@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153CA0111CD0B47C00958372 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA0101CD0B47C00958372 /* main.m */; };
+		153CA0141CD0B47C00958372 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA0131CD0B47C00958372 /* AppDelegate.m */; };
+		153CA0171CD0B47C00958372 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA0161CD0B47C00958372 /* ViewController.m */; };
+		153CA01A1CD0B47C00958372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153CA0181CD0B47C00958372 /* Main.storyboard */; };
+		153CA01C1CD0B47C00958372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153CA01B1CD0B47C00958372 /* Assets.xcassets */; };
+		153CA01F1CD0B47C00958372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153CA01D1CD0B47C00958372 /* LaunchScreen.storyboard */; };
+		153CA02A1CD0B47C00958372 /* PriceCalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA0291CD0B47C00958372 /* PriceCalenderTests.m */; };
+		153CA0351CD0B47C00958372 /* PriceCalenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA0341CD0B47C00958372 /* PriceCalenderUITests.m */; };
+		153CA0471CD0B50A00958372 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA0461CD0B50A00958372 /* DateViewController.m */; };
+		153CA04A1CD0B58E00958372 /* CalenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA0491CD0B58E00958372 /* CalenderCell.m */; };
+		153CA04D1CD0B66200958372 /* CalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA04C1CD0B66200958372 /* CalenderView.m */; };
+		153CA0501CD0B7D800958372 /* MonthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA04F1CD0B7D800958372 /* MonthCell.m */; };
+		153CA0531CD0B84000958372 /* WeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153CA0521CD0B84000958372 /* WeekView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		153CA0261CD0B47C00958372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 153CA0041CD0B47C00958372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153CA00B1CD0B47C00958372;
+			remoteInfo = PriceCalender;
+		};
+		153CA0311CD0B47C00958372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 153CA0041CD0B47C00958372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153CA00B1CD0B47C00958372;
+			remoteInfo = PriceCalender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153CA00C1CD0B47C00958372 /* PriceCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		153CA0101CD0B47C00958372 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		153CA0121CD0B47C00958372 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		153CA0131CD0B47C00958372 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		153CA0151CD0B47C00958372 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		153CA0161CD0B47C00958372 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		153CA0191CD0B47C00958372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		153CA01B1CD0B47C00958372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		153CA01E1CD0B47C00958372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		153CA0201CD0B47C00958372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153CA0251CD0B47C00958372 /* PriceCalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceCalenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153CA0291CD0B47C00958372 /* PriceCalenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceCalenderTests.m; sourceTree = "<group>"; };
+		153CA02B1CD0B47C00958372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153CA0301CD0B47C00958372 /* PriceCalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceCalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153CA0341CD0B47C00958372 /* PriceCalenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceCalenderUITests.m; sourceTree = "<group>"; };
+		153CA0361CD0B47C00958372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153CA0451CD0B50A00958372 /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		153CA0461CD0B50A00958372 /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
+		153CA0481CD0B58E00958372 /* CalenderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderCell.h; sourceTree = "<group>"; };
+		153CA0491CD0B58E00958372 /* CalenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderCell.m; sourceTree = "<group>"; };
+		153CA04B1CD0B66200958372 /* CalenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderView.h; sourceTree = "<group>"; };
+		153CA04C1CD0B66200958372 /* CalenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderView.m; sourceTree = "<group>"; };
+		153CA04E1CD0B7D800958372 /* MonthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthCell.h; sourceTree = "<group>"; };
+		153CA04F1CD0B7D800958372 /* MonthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthCell.m; sourceTree = "<group>"; };
+		153CA0511CD0B84000958372 /* WeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekView.h; sourceTree = "<group>"; };
+		153CA0521CD0B84000958372 /* WeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		153CA0091CD0B47C00958372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153CA0221CD0B47C00958372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153CA02D1CD0B47C00958372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153CA0031CD0B47C00958372 = {
+			isa = PBXGroup;
+			children = (
+				153CA00E1CD0B47C00958372 /* PriceCalender */,
+				153CA0281CD0B47C00958372 /* PriceCalenderTests */,
+				153CA0331CD0B47C00958372 /* PriceCalenderUITests */,
+				153CA00D1CD0B47C00958372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		153CA00D1CD0B47C00958372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				153CA00C1CD0B47C00958372 /* PriceCalender.app */,
+				153CA0251CD0B47C00958372 /* PriceCalenderTests.xctest */,
+				153CA0301CD0B47C00958372 /* PriceCalenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		153CA00E1CD0B47C00958372 /* PriceCalender */ = {
+			isa = PBXGroup;
+			children = (
+				153CA0421CD0B4BE00958372 /* Date */,
+				153CA0121CD0B47C00958372 /* AppDelegate.h */,
+				153CA0131CD0B47C00958372 /* AppDelegate.m */,
+				153CA0151CD0B47C00958372 /* ViewController.h */,
+				153CA0161CD0B47C00958372 /* ViewController.m */,
+				153CA0181CD0B47C00958372 /* Main.storyboard */,
+				153CA01B1CD0B47C00958372 /* Assets.xcassets */,
+				153CA01D1CD0B47C00958372 /* LaunchScreen.storyboard */,
+				153CA0201CD0B47C00958372 /* Info.plist */,
+				153CA00F1CD0B47C00958372 /* Supporting Files */,
+			);
+			path = PriceCalender;
+			sourceTree = "<group>";
+		};
+		153CA00F1CD0B47C00958372 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				153CA0101CD0B47C00958372 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		153CA0281CD0B47C00958372 /* PriceCalenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				153CA0291CD0B47C00958372 /* PriceCalenderTests.m */,
+				153CA02B1CD0B47C00958372 /* Info.plist */,
+			);
+			path = PriceCalenderTests;
+			sourceTree = "<group>";
+		};
+		153CA0331CD0B47C00958372 /* PriceCalenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				153CA0341CD0B47C00958372 /* PriceCalenderUITests.m */,
+				153CA0361CD0B47C00958372 /* Info.plist */,
+			);
+			path = PriceCalenderUITests;
+			sourceTree = "<group>";
+		};
+		153CA0421CD0B4BE00958372 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				153CA0441CD0B4D700958372 /* Controller */,
+				153CA0431CD0B4CA00958372 /* View */,
+			);
+			name = Date;
+			sourceTree = "<group>";
+		};
+		153CA0431CD0B4CA00958372 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				153CA0481CD0B58E00958372 /* CalenderCell.h */,
+				153CA0491CD0B58E00958372 /* CalenderCell.m */,
+				153CA04B1CD0B66200958372 /* CalenderView.h */,
+				153CA04C1CD0B66200958372 /* CalenderView.m */,
+				153CA04E1CD0B7D800958372 /* MonthCell.h */,
+				153CA04F1CD0B7D800958372 /* MonthCell.m */,
+				153CA0511CD0B84000958372 /* WeekView.h */,
+				153CA0521CD0B84000958372 /* WeekView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		153CA0441CD0B4D700958372 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				153CA0451CD0B50A00958372 /* DateViewController.h */,
+				153CA0461CD0B50A00958372 /* DateViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		153CA00B1CD0B47C00958372 /* PriceCalender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153CA0391CD0B47C00958372 /* Build configuration list for PBXNativeTarget "PriceCalender" */;
+			buildPhases = (
+				153CA0081CD0B47C00958372 /* Sources */,
+				153CA0091CD0B47C00958372 /* Frameworks */,
+				153CA00A1CD0B47C00958372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceCalender;
+			productName = PriceCalender;
+			productReference = 153CA00C1CD0B47C00958372 /* PriceCalender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		153CA0241CD0B47C00958372 /* PriceCalenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153CA03C1CD0B47C00958372 /* Build configuration list for PBXNativeTarget "PriceCalenderTests" */;
+			buildPhases = (
+				153CA0211CD0B47C00958372 /* Sources */,
+				153CA0221CD0B47C00958372 /* Frameworks */,
+				153CA0231CD0B47C00958372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153CA0271CD0B47C00958372 /* PBXTargetDependency */,
+			);
+			name = PriceCalenderTests;
+			productName = PriceCalenderTests;
+			productReference = 153CA0251CD0B47C00958372 /* PriceCalenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		153CA02F1CD0B47C00958372 /* PriceCalenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153CA03F1CD0B47C00958372 /* Build configuration list for PBXNativeTarget "PriceCalenderUITests" */;
+			buildPhases = (
+				153CA02C1CD0B47C00958372 /* Sources */,
+				153CA02D1CD0B47C00958372 /* Frameworks */,
+				153CA02E1CD0B47C00958372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153CA0321CD0B47C00958372 /* PBXTargetDependency */,
+			);
+			name = PriceCalenderUITests;
+			productName = PriceCalenderUITests;
+			productReference = 153CA0301CD0B47C00958372 /* PriceCalenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		153CA0041CD0B47C00958372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HarrisHan;
+				TargetAttributes = {
+					153CA00B1CD0B47C00958372 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					153CA0241CD0B47C00958372 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 153CA00B1CD0B47C00958372;
+					};
+					153CA02F1CD0B47C00958372 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 153CA00B1CD0B47C00958372;
+					};
+				};
+			};
+			buildConfigurationList = 153CA0071CD0B47C00958372 /* Build configuration list for PBXProject "PriceCalender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 153CA0031CD0B47C00958372;
+			productRefGroup = 153CA00D1CD0B47C00958372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				153CA00B1CD0B47C00958372 /* PriceCalender */,
+				153CA0241CD0B47C00958372 /* PriceCalenderTests */,
+				153CA02F1CD0B47C00958372 /* PriceCalenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		153CA00A1CD0B47C00958372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153CA01F1CD0B47C00958372 /* LaunchScreen.storyboard in Resources */,
+				153CA01C1CD0B47C00958372 /* Assets.xcassets in Resources */,
+				153CA01A1CD0B47C00958372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153CA0231CD0B47C00958372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153CA02E1CD0B47C00958372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153CA0081CD0B47C00958372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153CA0471CD0B50A00958372 /* DateViewController.m in Sources */,
+				153CA0171CD0B47C00958372 /* ViewController.m in Sources */,
+				153CA0141CD0B47C00958372 /* AppDelegate.m in Sources */,
+				153CA0111CD0B47C00958372 /* main.m in Sources */,
+				153CA0531CD0B84000958372 /* WeekView.m in Sources */,
+				153CA04D1CD0B66200958372 /* CalenderView.m in Sources */,
+				153CA0501CD0B7D800958372 /* MonthCell.m in Sources */,
+				153CA04A1CD0B58E00958372 /* CalenderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153CA0211CD0B47C00958372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153CA02A1CD0B47C00958372 /* PriceCalenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153CA02C1CD0B47C00958372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153CA0351CD0B47C00958372 /* PriceCalenderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153CA0271CD0B47C00958372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 153CA00B1CD0B47C00958372 /* PriceCalender */;
+			targetProxy = 153CA0261CD0B47C00958372 /* PBXContainerItemProxy */;
+		};
+		153CA0321CD0B47C00958372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 153CA00B1CD0B47C00958372 /* PriceCalender */;
+			targetProxy = 153CA0311CD0B47C00958372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		153CA0181CD0B47C00958372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153CA0191CD0B47C00958372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		153CA01D1CD0B47C00958372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153CA01E1CD0B47C00958372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		153CA0371CD0B47C00958372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		153CA0381CD0B47C00958372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		153CA03A1CD0B47C00958372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PriceCalender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ren.harris.PriceCalender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		153CA03B1CD0B47C00958372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PriceCalender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ren.harris.PriceCalender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		153CA03D1CD0B47C00958372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PriceCalenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ren.harris.PriceCalenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriceCalender.app/PriceCalender";
+			};
+			name = Debug;
+		};
+		153CA03E1CD0B47C00958372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PriceCalenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ren.harris.PriceCalenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriceCalender.app/PriceCalender";
+			};
+			name = Release;
+		};
+		153CA0401CD0B47C00958372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PriceCalenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ren.harris.PriceCalenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PriceCalender;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		153CA0411CD0B47C00958372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PriceCalenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ren.harris.PriceCalenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PriceCalender;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		153CA0071CD0B47C00958372 /* Build configuration list for PBXProject "PriceCalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153CA0371CD0B47C00958372 /* Debug */,
+				153CA0381CD0B47C00958372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153CA0391CD0B47C00958372 /* Build configuration list for PBXNativeTarget "PriceCalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153CA03A1CD0B47C00958372 /* Debug */,
+				153CA03B1CD0B47C00958372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		153CA03C1CD0B47C00958372 /* Build configuration list for PBXNativeTarget "PriceCalenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153CA03D1CD0B47C00958372 /* Debug */,
+				153CA03E1CD0B47C00958372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		153CA03F1CD0B47C00958372 /* Build configuration list for PBXNativeTarget "PriceCalenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153CA0401CD0B47C00958372 /* Debug */,
+				153CA0411CD0B47C00958372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 153CA0041CD0B47C00958372 /* Project object */;
+}
